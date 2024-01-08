@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+        
+        height: 6.25rem;
+        color: #ffffff;
+        text-align: center;
+        font-size: 1.25rem;
+        padding: 1.25rem;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    background-image: url(img/esportes.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+
+}
+
+.title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    font-size: 0.8rem;
+    color: #ffffff;
+}
+
+.article1 .wrapper {
+    position: relative;
+    width: 32rem;
+    height: 3rem;
+    left: 44rem;
+    background-color: #ffffff;
+    margin-top: 2rem;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.article1 .wrapper ul {
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem;
+    gap: 2rem;
+    font-size: 25px;
+    text-decoration: none;
+    list-style: none;
+}
+
+.article1 .wrapper ul li .link {
+    text-decoration: none;
+    color: #000000;
+    transition: background-color 1s;
+    
+}
+.article1 .wrapper ul li .link:hover, .active {
+    color: #0004ff; 
+}
+
+footer {
+    margin-top: auto;
+    background-color: transparent;
+    color: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    padding: 1.4rem;
+    height: 4rem;
+    font-weight: 700;
+}
